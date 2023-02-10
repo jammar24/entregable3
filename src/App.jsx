@@ -14,8 +14,7 @@ function App() {
   const [numberLocation, setNumberLocation] = useState(getRamdonLocations());
   const [hasError, setHasError] = useState(false);
   const [listLocation, setListLocation] = useState();
-  //const [isShow, setIsShow] = useState(false)
-  const [isLoading, setisLoading] = useState(true);
+ 
 
   useEffect(() => {
     const url = `https://rickandmortyapi.com/api/location/${numberLocation}`;
@@ -29,7 +28,6 @@ function App() {
         console.log(err);
         setHasError(true);
       })
-      .finally(() => setisLoading(false));
   }, [numberLocation]);
 
   const handleSubmit = (e) => {
@@ -49,8 +47,6 @@ function App() {
       .then((res) => setListLocation(res.data.results))
       .catch((err) => console.log(err));
   };
-  // const handleFocus =()=>setIsShow(true)
-  // const handleBlur =()=>setIsShow(false)
 
   return (
     <>
@@ -65,9 +61,7 @@ function App() {
               className="form__input"
               id="inputLocation"
               type="text"
-              onChange={handleChange}
-              //onFocus={handleFocus}
-              //onBlur={handleBlur}
+              //onChange={handleChange}
             />
             <button className="form__btn">Search</button>
           </form>

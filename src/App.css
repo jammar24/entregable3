@@ -19,10 +19,10 @@
 }
 .app__imgn {
    position: absolute;
-    top: -16.9%;
+    top: 0%;
     left: 0;
     min-width: 100vh;
-    height: 72vh;
+    height: 200px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -32,8 +32,8 @@
 
  
 .app__error{
-   color:#dfd8df ;
-   text-shadow: 0 0  9px  #ed0e89 ;
+   color:#07ef96 ;
+   text-shadow: 0 0  9px  #a70adb ;
    font-size: 2em;
 }
 .app__terry{
