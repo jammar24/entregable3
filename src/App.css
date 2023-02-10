@@ -1,0 +1,89 @@
+.app {
+   position: relative;
+   padding: 2em 1.5em;
+   width: 100%;
+   min-height:100vh;
+   background-image:url(./assets/tienda.png) ;
+   background-size: cover;
+   background-position: center;
+   background-repeat:no-repeat;
+   scroll-margin: none; 
+}
+
+.app__tit {
+    width: 100vh;
+    height: 200;
+    overflow: hidden;
+    position: relative;
+    margin: 2em auto;
+}
+.app__imgn {
+   position: absolute;
+    top: -16.9%;
+    left: 0;
+    min-width: 100vh;
+    height: 72vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-resolution: 100%;
+     z-index: 1;
+  }
+
+ 
+.app__error{
+   color:#dfd8df ;
+   text-shadow: 0 0  9px  #ed0e89 ;
+   font-size: 2em;
+}
+.app__terry{
+    width: 4em;
+    min-width: 30vh; 
+    position: flex;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    height: 1.8em;
+    margin-bottom: 5.5em;
+    margin-top: 15em;   
+}
+.form__input {
+    width: 100%;
+    max-width: 200px;
+    padding-left: 1em;
+    border-radius: 0.5em 0 0 0.5em;
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+}
+.form__btn {
+    width: 80px;
+    border-radius: 0 0.5em 0.5em 0;
+    background: rgb(231,64,199);
+    background: linear-gradient(90deg, rgba(231,64,199,0.7483368347338936) 0%,
+     rgba(61,124,231,1) 100%);
+     color: rgb(238, 243, 248);
+     font-weight: 700;
+     transition: font-weigth 100ms ease, filter 100ms ease;
+     cursor: pointer;
+}
+.form__btn:hover{
+    font-weight: 700;
+    filter:brightness(1.1) ;
+}
+.app__error{
+    text-align:center;
+    line-height:1.8;
+    font-weight: 400;
+}
+.users__container{
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,36 @@
+.location {
+ background: rgb(221,176,238);
+background: radial-gradient(circle, rgba(221,176,238,0.8211659663865546) 0%, rgba(59,191,196,0.8407738095238095) 100%);
+box-shadow:1px 1px 5px #a042cffc;
+padding: 1em   1.5em 1.5em ;
+margin-bottom: 3em;
+max-width: 500px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 0.5em;
+}
+.location__name {
+text-align: center;
+margin-bottom: 0.9em;
+color: rgb(40, 17, 50) ;
+text-shadow: 0 3px 0   rgba(5, 210, 237, 0.703);
+}
+.location__list {
+display:flex;
+justify-content: space-between;
+gap: 3em;
+filter: brightness(1.1);
+}
+.location__item {
+display: grid;
+gap: 0.3em;
+text-align: center;
+font-weight: 300;
+color: #190581;
+text-shadow: 0 2px 0   rgba(39, 219, 23, 0.414);
+font-size: 1.4rem;
+}
+.location__label {
+ font-weight: 500;
+ color: rgb(50, 11, 179);   
+}

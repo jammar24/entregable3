@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&family=Merriweather:ital,wght@0,400;1,400;1,700&family=Shippori+Mincho:wght@400;500;600&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,600&family=Source+Serif+Pro:ital,wght@0,400;0,700;1,400&family=Xanh+Mono:ital@1&display=swap');
+*{
+  box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Contrail One', cursive;
+}
+h1,h2,h3,p,ul{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul{
+   padding-left:0; 
+   list-style: none;
+}
+img{
+    padding: 0rem;
+    display: flex;
+    width: 100%;
+}
+input{
+   outline: none;
+   border: none;
+   font-family: inherit;
+   
+}
+button{
+    border: none;
+    font-family: inherit;
+    font-size:15px;
+    
+}

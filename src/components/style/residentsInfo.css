@@ -1,0 +1,73 @@
+.card {
+  border-radius: 0.5em;  
+  background: rgb(221,176,238);
+  background: radial-gradient(circle, rgba(221,176,238,0.8211659663865546) 0%,
+   rgba(59,191,196,0.8407738095238095) 100%);
+  overflow: hidden;
+  max-width: 300px;
+  border: 0.3em solid #8e09d17a;
+  text-shadow: 0 2.3px 0   rgba(18, 209, 234, 0.911);
+}
+.card__header {
+  position: relative;
+}
+.card__container-status {
+  display: flex;
+  gap: 0.2em;
+  align-items: center;
+  position: absolute; 
+  top: 1.5em; 
+  width: 5em;
+  background: rgb(221,176,238);
+background: radial-gradient(circle, rgba(221,176,238,0.8211659663865546) 0%,
+ rgba(59,191,196,0.8407738095238095) 100%);
+  padding: 0.2em 0 0.2em 0.4em;
+  border-radius: 0 0.4em 0.4em 0;
+  border: solid #8e09d17a;
+  justify-content: center;
+}
+.card__circle {
+  display: block;
+  width: 12px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: #ff0303; 
+}
+.unknown {
+  background-color:  #4a354f;
+}
+.Alive {
+  background-color: #c2ff05;
+}
+.Dead {
+  background-color: #ff0303;  
+}
+.card__body{
+  padding: 1em 1.1em 1.9em ; 
+}
+.card__name {
+ text-align: center;
+ margin-bottom: 0.5em;
+ font-size:1.3rem;
+}
+.card__hr{
+  border:none;
+  border-top: 2px solid rgba(90, 71, 96, 0.34) ;  
+}
+.card__list{
+ display: grid;
+ gap:0.9em;
+}
+.card__item{
+ display:flex;
+ flex-direction: column;
+ text-align: center;
+}
+.card__label{
+ font-size:  0.9rem;
+ position: relative;
+ left: 0.1em;
+ color: #8d0638;
+ text-align: center;
+ text-shadow: 0 2px 0   rgba(5, 244, 89, 0.341);
+}
